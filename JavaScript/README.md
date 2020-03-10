@@ -1,8 +1,8 @@
-![Logo](admin/template.png)
-# ioBroker.template
+![Logo](admin/nfa.png)
+# ioBroker.nfa
 
-[![NPM version](http://img.shields.io/npm/v/iobroker.template.svg)](https://www.npmjs.com/package/iobroker.template)
-[![Downloads](https://img.shields.io/npm/dm/iobroker.template.svg)](https://www.npmjs.com/package/iobroker.template)
+[![NPM version](http://img.shields.io/npm/v/iobroker.nfa.svg)](https://www.npmjs.com/package/iobroker.nfa)
+[![Downloads](https://img.shields.io/npm/dm/iobroker.nfa.svg)](https://www.npmjs.com/package/iobroker.nfa)
 ![Number of Installations (latest)](http://iobroker.live/badges/template-installed.svg)
 ![Number of Installations (stable)](http://iobroker.live/badges/template-stable.svg)
 [![Dependency Status](https://img.shields.io/david/Author/iobroker.template.svg)](https://david-dm.org/Author/iobroker.template)

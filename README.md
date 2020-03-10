@@ -1,4 +1,4 @@
-# <img src="icon.png" width=48> ioBroker templates
+# <img src="icon.png" width=48> ioBroker nfa
 
 This is a collection of templates for ioBroker developers to create adapters or VIS widgets. Just select the template you need, copy its contents from the sub directory and begin working on your project.
 

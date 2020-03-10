@@ -1,6 +1,6 @@
 {
     "common": {
-        "name": "template",
+        "name": "nfa",
         "version": "0.0.1",
         "news": {
             "0.0.1": {
@@ -16,10 +16,10 @@
                 "zh-cn": "首次出版"
             }
         },
-        "title": "Template (JavaScript)",
+        "title": "Notifications for Fire TV (JavaScript)",
         "titleLang": {
-            "en": "Template (JavaScript)",
-            "de": "Vorlage (JavaScript)",
+            "en": "Notifications for Fire TV (JavaScript)",
+            "de": "Benachrichtigungen für Fire TV (JavaScript)",
             "ru": "Шаблон (JavaScript)",
             "pt": "Modelo (JavaScript)",
             "nl": "Sjabloon (JavaScript)",
@@ -30,8 +30,8 @@
             "zh-cn": "范本（JavaScript）"
         },
         "desc": {
-            "en": "Template for adapter development",
-            "de": "Vorlage für die Adapterentwicklung",
+            "en": "Notifications for Fire TV development",
+            "de": "VBenachrichtigungen für Fire TV Adapterentwicklung",
             "ru": "Шаблон для разработки адаптера",
             "pt": "Modelo para desenvolvimento de adaptadores",
             "nl": "Sjabloon voor adapterontwikkeling",
@@ -42,21 +42,21 @@
             "zh-cn": "适配器开发的模板"
         },
         "authors": [
-            "Author <author@mail.com>"
+            "Author <heiko.reyer@mail.de>"
         ],
         "keywords": [
             "ioBroker",
-            "template",
+            "nfa",
             "Smart Home",
             "home automation"
         ],
         "license": "MIT",
         "platform": "Javascript/Node.js",
         "main": "main.js",
-        "icon": "template.png",
+        "icon": "nfa.png",
         "enabled": true,
-        "extIcon": "https://raw.githubusercontent.com/Author/ioBroker.template/master/admin/template.png",
-        "readme": "https://github.com/Author/ioBroker.template/blob/master/README.md",
+        "extIcon": "https://raw.githubusercontent.com/Dreamboy74de/ioBroker.nfa/master/admin/nfa.png",
+        "readme": "https://github.com/Dreamboy74de/ioBroker.nfa/blob/master/README.md",
         "loglevel": "info",
         "mode": "daemon",
         "type": "general",

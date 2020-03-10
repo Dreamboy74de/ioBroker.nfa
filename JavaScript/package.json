@@ -1,22 +1,22 @@
 {
-  "name": "iobroker.template",
+  "name": "iobroker.nfa",
   "version": "0.0.1",
-  "description": "Template for adapter development",
+  "description": "Notifications for Fire TV",
   "author": {
-    "name": "Author",
-    "email": "author@mail.com"
+    "name": "Heiko Reyer",
+    "email": "heiko.reyer@mail.de"
   },
-  "homepage": "https://github.com/Author/ioBroker.template",
+  "homepage": "https://github.com/Dreamboy74de/ioBroker.nfa",
   "license": "MIT",
   "keywords": [
     "ioBroker",
-    "template",
+    "nfa",
     "Smart Home",
     "home automation"
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/Author/ioBroker.template"
+    "url": "https://github.com/Dreamboy74de/ioBroker.nfa"
   },
   "dependencies": {
     "@iobroker/adapter-core": "^2.2.1"
@@ -51,7 +51,7 @@
     "lint": "eslint"
   },
   "bugs": {
-    "url": "https://github.com/Author/ioBroker.template/issues"
+    "url": "https://github.com/Dreamboy74de/ioBroker.nfa/issues"
   },
   "readmeFilename": "README.md"
 }
