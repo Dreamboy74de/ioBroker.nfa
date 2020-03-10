@@ -12,13 +12,12 @@
 
 **Tests:**: [![Travis-CI](http://img.shields.io/travis/Author/ioBroker.template/master.svg)](https://travis-ci.org/Author/ioBroker.template)
 
-## template adapter for ioBroker
+## Notifications for FireTV Adapter
 
-Template for adapter development
+Ein Adapter zur Textanzeige auf einen FireTV Stick
 
 ## Developer manual
-This section is intended for the developer. It can be deleted later
-
+...
 ### Getting started
 
 You are almost done, only a few steps left:
@@ -82,18 +81,18 @@ In order to install the adapter locally without publishing, the following steps 
     ```
 
 For later updates, the above procedure is not necessary. Just do the following:
-1. Overwrite the changed files in the adapter directory (`/opt/iobroker/node_modules/iobroker.template`)
-1. Execute `iobroker upload template` on the ioBroker host
+1. Overwrite the changed files in the adapter directory (`/opt/iobroker/node_modules/iobroker.nfa`)
+1. Execute `iobroker upload nfa` on the ioBroker host
 
 ## Changelog
 
 ### 0.0.1
-* (Author) initial release
+* (Dreamboy74de) initial release
 
 ## License
 MIT License
 
-Copyright (c) 2020 Author <author@mail.com>
+Copyright (c) 2020 Author <heiko.reyer@mail.de>
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
