@@ -5,84 +5,32 @@
 [![Downloads](https://img.shields.io/npm/dm/iobroker.nfa.svg)](https://www.npmjs.com/package/iobroker.nfa)
 ![Number of Installations (latest)](http://iobroker.live/badges/template-installed.svg)
 ![Number of Installations (stable)](http://iobroker.live/badges/template-stable.svg)
-[![Dependency Status](https://img.shields.io/david/Author/iobroker.template.svg)](https://david-dm.org/Author/iobroker.template)
-[![Known Vulnerabilities](https://snyk.io/test/github/Author/ioBroker.template/badge.svg)](https://snyk.io/test/github/Author/ioBroker.template)
+[![Dependency Status](https://img.shields.io/david/Author/iobroker.nfa.svg)](https://david-dm.org/Dreamboy74de/iobroker.nfa)
+[![Known Vulnerabilities](https://snyk.io/test/github/Author/ioBroker.nfa/badge.svg)](https://snyk.io/test/github/Author/ioBroker.nfa)
 
-[![NPM](https://nodei.co/npm/iobroker.template.png?downloads=true)](https://nodei.co/npm/iobroker.template/)
+[![NPM](https://nodei.co/npm/iobroker.nfa.png?downloads=true)](https://nodei.co/npm/iobroker.nfa/)
 
-**Tests:**: [![Travis-CI](http://img.shields.io/travis/Author/ioBroker.template/master.svg)](https://travis-ci.org/Author/ioBroker.template)
+**Tests:**: [![Travis-CI](http://img.shields.io/travis/Dreamboy74de/ioBroker.nfa/master.svg)](https://travis-ci.org/Dreamboy74de/ioBroker.nfa)
 
 ## Notifications for FireTV Adapter
 
-Ein Adapter zur Textanzeige auf einen FireTV Stick
+Ein Adapter zur Texteinblendung auf einen FireTV Stick..
 
-## Developer manual
-...
-### Getting started
+Inspiriert von der derzeitigen eingeschränkten Möglichkeit, Nachrichten in Textform direkt auf den Bildschirm eines mit FireTV Stick betriebenen TV anzuzeigen.
+Das Original entwickelte App für Android hat folgende Funktion : Position / Größe / Farbe / Einblendezeit. Sämtliche Meldungen(Notifications) das ein Androidhandy bekommt werden an den mit dem Gleichlautenden App das auf den FireTV Stick ausgeführt wird weitergeleitet.
 
-You are almost done, only a few steps left:
-1. Create a new repository on GitHub with the name `ioBroker.template`
-1. Initialize the current folder as a new git repository:  
-    ```bash
-    git init
-    git add .
-    git commit -m "Initial commit"
-    ```
-1. Link your local repository with the one on GitHub:  
-    ```bash
-    git remote add origin https://github.com/Author/ioBroker.template
-    ```
+Für ioBroker bedeutet die JETZIGE Vorgehensweise : 
+- Ein Telegram Bot mit dem Telegram Adapter anlegen
+- Diesen Bot auf einem Androidhandy ebenfalls anlegen (somit werden schonmal alle erdenklichen Meldungen von ioBroker zum Handy geleitet.
+- Das App im Playstore suchen "Notifications for FireTV" und ebenfalls auf den FireTV Stick installieren.
+- Handy und FireTV darüber koppeln. 
+- In der Handy App in Einstellungen auf "Aktiv bleiben" Stellen sowie unter Anwendungen dort Telegram auswählen.
+- Optische Einstellungen über Position/Größe/Farbe/Einblendezeit ebenfalls festlegen.
 
-1. Push all files to the GitHub repo:  
-    ```bash
-    git push origin master
-    ```
-1. Head over to [main.js](main.js) and start programming!
+Von nun an werden Meldungen die der Telegram Bot empfängt umgehend auf den Bildschirm eines TV mit FireTV eingeblendet.
 
-### Best Practices
-We've collected some [best practices](https://github.com/ioBroker/ioBroker.repositories#development-and-coding-best-practices) regarding ioBroker development and coding in general. If you're new to ioBroker or Node.js, you should
-check them out. If you're already experienced, you should also take a look at them - you might learn something new :)
+Dieser Adapter hier soll den ganzen Part über den Telegram-Bot und dem Handy übergehen, und direkt die Meldungen auf den TV einblenden.... 
 
-### Scripts in `package.json`
-Several npm scripts are predefined for your convenience. You can run them using `npm run <scriptname>`
-| Script name | Description                                              |
-|-------------|----------------------------------------------------------|
-| `test:js`   | Executes the tests you defined in `*.test.js` files.     |
-| `test:package`    | Ensures your `package.json` and `io-package.json` are valid. |
-| `test` | Performs a minimal test run on package files and your tests. |
-| `lint` | Runs `ESLint` to check your code for formatting errors and potential bugs. |
-
-### Writing tests
-When done right, testing code is invaluable, because it gives you the 
-confidence to change your code while knowing exactly if and when 
-something breaks. A good read on the topic of test-driven development 
-is https://hackernoon.com/introduction-to-test-driven-development-tdd-61a13bc92d92. 
-Although writing tests before the code might seem strange at first, but it has very 
-clear upsides.
-
-The template provides you with basic tests for the adapter startup and package files.
-It is recommended that you add your own tests into the mix.
-
-### Publishing the adapter
-To get your adapter released in ioBroker, please refer to the documentation 
-of [ioBroker.repositories](https://github.com/ioBroker/ioBroker.repositories#requirements-for-adapter-to-get-added-to-the-latest-repository).
-
-### Test the adapter manually on a local ioBroker installation
-In order to install the adapter locally without publishing, the following steps are recommended:
-1. Create a tarball from your dev directory:  
-    ```bash
-    npm pack
-    ```
-1. Upload the resulting file to your ioBroker host
-1. Install it locally (The paths are different on Windows):
-    ```bash
-    cd /opt/iobroker
-    npm i /path/to/tarball.tgz
-    ```
-
-For later updates, the above procedure is not necessary. Just do the following:
-1. Overwrite the changed files in the adapter directory (`/opt/iobroker/node_modules/iobroker.nfa`)
-1. Execute `iobroker upload nfa` on the ioBroker host
 
 ## Changelog
 
