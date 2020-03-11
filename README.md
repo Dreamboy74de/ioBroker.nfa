@@ -40,7 +40,7 @@ Dieser Adapter hier soll den ganzen Part über den Telegram-Bot und dem Handy ü
 ## License
 MIT License
 
-Copyright (c) 2020 Deamboy74de <heiko.reyer@mail.de>
+Copyright (c) 2020 Dreamboy74de <heiko.reyer@mail.de>
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
